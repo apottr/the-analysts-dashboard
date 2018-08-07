@@ -1,0 +1,23 @@
+{
+  "name": "the-analysts-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:apottr/the-analysts-dashboard.git",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "resolve-url-loader": "^2.3.0",
+    "semantic-ui-react": "^0.81.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
