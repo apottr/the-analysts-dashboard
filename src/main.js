@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Container from './main.jsx'
+import Container from './core.jsx'
 
 import './main.css'
 
