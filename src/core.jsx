@@ -17,35 +17,23 @@ const ConRouter = () => (
 		<Switch>
 			<Route exact path="/" component={Container} />
 			<Route path="/map" component={MapContainer} />
+			<Route path="/sources" component={Sources} />
 		</Switch>
 	</Router>
 )
 
+const Sources = () => {
+	
+}
+
 const Container = () => (
 	<div>
 		<Link to="/map">Map</Link>
+		<Link to="/sources">Sources</Link>
 	</div>
 )
 
 class MapContainer extends React.Component {
-	componentDidMount(){
-		let m = new Map(
-			{
-				target: 'map',
-				layers: [
-				  new TileLayer({
-					source: new XYZ({
-					  url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-					})
-				  })
-				],
-				view: new View({
-				  center: [0, 0],
-				  zoom: 2
-				})
-			  }
-		)
-	}
 	render(){
 		return (
 			<div id="map"></div>
